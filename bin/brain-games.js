@@ -2,6 +2,5 @@
 //При запуске исполняемого файла такая запись позволит выполнить код, который в нём расположен
 
 // выводит приветственное сообщение
-const welcome =() => {
-    console.log('Welcome to the Brain Games!');
-};
+console.log('Welcome to the Brain Games!');
+
