@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/DSFirstaev/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/DSFirstaev/frontend-project-lvl1/actions)",
-  "type": "module", 
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/DSFirstaev/frontend-project-lvl1#readme",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
