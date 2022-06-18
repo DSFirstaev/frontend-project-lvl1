@@ -24,7 +24,7 @@ const isEven = () => {
         console.log('Correct!');
       }
       if (userAnswer !== 'yes') {
-        console.log(`${userAnswer} is wrong answer ;(. Correct answer was 'yes'.`);
+        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'yes'.`);
         return console.log(`Let's try again, ${userName}!`);
       }
     }
@@ -33,7 +33,7 @@ const isEven = () => {
         console.log('Correct!');
       }
       if (userAnswer !== 'no') {
-        console.log(`${userAnswer} is wrong answer ;(. Correct answer was 'no'.`);
+        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no'.`);
         return console.log(`Let's try again, ${userName}!`);
       }
     }
