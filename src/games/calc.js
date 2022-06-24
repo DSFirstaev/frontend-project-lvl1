@@ -4,7 +4,7 @@ const rules = 'What is the result of the expression?';
 
 const randomOperand = () => {
   const operands = ['+', '-', '*'];
-  return operands[getRandomNumber(3)];
+  return operands[getRandomNumber(0, 2)];
 };
 
 const culc = (num1, num2, operand) => {
@@ -21,8 +21,8 @@ const culc = (num1, num2, operand) => {
 };
 
 const calc = () => {
-  const num1 = getRandomNumber(10);
-  const num2 = getRandomNumber(10);
+  const num1 = getRandomNumber(0, 10);
+  const num2 = getRandomNumber(0, 10);
   const operand = randomOperand();
   const task = `Question: ${num1} ${operand} ${num2}`;
   const rightAnswer = String(culc(num1, num2, operand));
