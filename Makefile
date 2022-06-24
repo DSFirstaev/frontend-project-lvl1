@@ -18,3 +18,6 @@ brain-even:
 
 rec:
 	asciinema rec
+
+brain-calc:
+	node bin/brain-calc.js
