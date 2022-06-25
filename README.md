@@ -5,8 +5,12 @@
 
 Brain Even
 
-https://asciinema.org/a/Vciva9hV2vzLhkcRyn0AoFIHJ
+[![asciicast](https://asciinema.org/a/Vciva9hV2vzLhkcRyn0AoFIHJ.svg)](https://asciinema.org/a/Vciva9hV2vzLhkcRyn0AoFIHJ)
 
 Brain Calc
 
-https://asciinema.org/a/GMMfhgtzzF1TcV5zqGztlzpI3
+[![asciicast](https://asciinema.org/a/GMMfhgtzzF1TcV5zqGztlzpI3.svg)](https://asciinema.org/a/GMMfhgtzzF1TcV5zqGztlzpI3)
+
+Brain GCD
+
+[![asciicast](https://asciinema.org/a/tAG6PY09IsiWASrw9q7yHZE2D.svg)](https://asciinema.org/a/tAG6PY09IsiWASrw9q7yHZE2D)
