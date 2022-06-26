@@ -1,5 +1,3 @@
-//  игра на определение чётности
-
 import { getRandomNumber, gameEngine } from '../index.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no"';
