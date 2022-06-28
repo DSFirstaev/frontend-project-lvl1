@@ -1,8 +1,12 @@
-import { getRandomNumber, gameEngine } from '../index.js';
+import gameEngine from '../index.js';
 
-const rules = 'What number is missing in the progression?';
+import { getRandomNumber, getRandomIndex } from '../utils.js';
 
-const progression = () => {
+const rule = 'What number is missing in the progression?';
+
+const dots = '..';
+
+const getProgression = () => {
   const startNum = getRandomNumber(0, 20);
   const progNum = getRandomNumber(1, 10);
   const result = [];
@@ -10,14 +14,16 @@ const progression = () => {
   for (let i = 0; i <= lengthOfProgression; i += 1) {
     result.push(startNum + i * progNum);
   }
-  const randomIndex = getRandomNumber(0, lengthOfProgression - 1);
-  const dots = '..';
-  const rightAnswer = String(result[randomIndex]);
-  result[randomIndex] = dots;
-  const task = `Question: ${result.join([' '])}`;
-  return [rightAnswer, task];
+  return result;
 };
 
-const startGame = () => gameEngine(rules, progression);
+const getTask = () => {
+  const progression = getProgression();
+  const randomIndex = getRandomIndex(progression);
+  const answer = String(progression[randomIndex]);
+  progression[randomIndex] = dots;
+  const task = `${progression.join([' '])}`;
+  return [answer, task];
+};
 
-export default startGame;
+export default () => gameEngine(rule, getTask);

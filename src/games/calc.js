@@ -1,34 +1,30 @@
-import { getRandomNumber, gameEngine } from '../index.js';
+import gameEngine from '../index.js';
 
-const rules = 'What is the result of the expression?';
+import { getRandomNumber, getRandomIndex } from '../utils.js';
 
-const randomOperand = () => {
-  const operands = ['+', '-', '*'];
-  return operands[getRandomNumber(0, 2)];
-};
+const rule = 'What is the result of the expression?';
 
-const culc = (num1, num2, operand) => {
-  switch (operand) {
-    case '+':
-      return num1 + num2;
-    case '-':
-      return num1 - num2;
-    case '*':
-      return num1 * num2;
-    default:
-      return null;
+const operators = ['+', '-', '*'];
+
+const randomOperator = () => operators[getRandomIndex(operators)];
+
+const getAnswer = (num1, num2, operator) => {
+  if (operator === '+') {
+    return num1 + num2;
   }
+  if (operator === '-') {
+    return num1 - num2;
+  }
+  return num1 * num2;
 };
 
-const calc = () => {
+const getTask = () => {
   const num1 = getRandomNumber(0, 10);
   const num2 = getRandomNumber(0, 10);
-  const operand = randomOperand();
-  const task = `Question: ${num1} ${operand} ${num2}`;
-  const rightAnswer = String(culc(num1, num2, operand));
-  return [rightAnswer, task];
+  const operator = randomOperator();
+  const task = `${num1} ${operator} ${num2}`;
+  const answer = String(getAnswer(num1, num2, operator));
+  return [answer, task];
 };
 
-const startGame = () => gameEngine(rules, calc);
-
-export default startGame;
+export default () => gameEngine(rule, getTask);
