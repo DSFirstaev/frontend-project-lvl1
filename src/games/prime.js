@@ -5,10 +5,6 @@ const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   if (number <= 1) {
-    return null;
-  }
-
-  if (number % 2 === 0) {
     return false;
   }
 
@@ -22,7 +18,7 @@ const isPrime = (number) => {
 };
 
 function getAnswerAndQuestion() {
-  const question = getRandomNumber(2, 100);
+  const question = getRandomNumber(0, 100);
   const answer = isPrime(question) ? 'yes' : 'no';
 
   return [answer, question];
