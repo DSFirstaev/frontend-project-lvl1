@@ -8,26 +8,26 @@ This is a project of several thinking games.
 How to install
 
 1. Clone this repository
-2. Run the command: make install
-3. Run the command: npm link
+2. Run the command: `make install`
+3. Run the command: `npm link`
 
 
 Demo Brain Even
 
-[![asciicast](https://asciinema.org/a/Vciva9hV2vzLhkcRyn0AoFIHJ.svg)](https://asciinema.org/a/Vciva9hV2vzLhkcRyn0AoFIHJ)
+[![asciicast](https://asciinema.org/a/fkoHqK8mhF2ukYmwWP7G67QD9.svg)](https://asciinema.org/a/fkoHqK8mhF2ukYmwWP7G67QD9)
 
 Demo Brain Calc
 
-[![asciicast](https://asciinema.org/a/GMMfhgtzzF1TcV5zqGztlzpI3.svg)](https://asciinema.org/a/GMMfhgtzzF1TcV5zqGztlzpI3)
+[![asciicast](https://asciinema.org/a/uszAyBmmjLcr6kJMufia9FhEl.svg)](https://asciinema.org/a/uszAyBmmjLcr6kJMufia9FhEl)
 
 Demo Brain GCD
 
-[![asciicast](https://asciinema.org/a/tAG6PY09IsiWASrw9q7yHZE2D.svg)](https://asciinema.org/a/tAG6PY09IsiWASrw9q7yHZE2D)
+[![asciicast](https://asciinema.org/a/j4gGrhRMVRvj1SXth6vtF1JQS.svg)](https://asciinema.org/a/j4gGrhRMVRvj1SXth6vtF1JQS)
 
 Demo Brain Progression
 
-[![asciicast](https://asciinema.org/a/nCpS6FPPsOiZ10XkAEWGePoQN.svg)](https://asciinema.org/a/nCpS6FPPsOiZ10XkAEWGePoQN)
+[![asciicast](https://asciinema.org/a/RrYJRcpg3lvykiKVbuKr5dsB8.svg)](https://asciinema.org/a/RrYJRcpg3lvykiKVbuKr5dsB8)
 
 Demo Brain Prime
 
-[![asciicast](https://asciinema.org/a/jioD1AqDPxp5FKFg5ZTlZCoFN.svg)](https://asciinema.org/a/jioD1AqDPxp5FKFg5ZTlZCoFN)
+[![asciicast](https://asciinema.org/a/Dsd5nOzBA3jx51IgWb27w7Jvy.svg)](https://asciinema.org/a/Dsd5nOzBA3jx51IgWb27w7Jvy)

@@ -7,10 +7,12 @@ const gameEngine = (rule, getRound) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(rule);
+
   for (let i = 0; i < numberOfRounds; i += 1) {
-    const [rightAnswer, task] = getRound();
-    console.log(`Question: ${task}`);
+    const [rightAnswer, question] = getRound();
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
+
     if (rightAnswer !== userAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
@@ -18,6 +20,7 @@ const gameEngine = (rule, getRound) => {
     }
     console.log('Correct!');
   }
+
   console.log(`Congratulations, ${userName}!`);
 };
 
