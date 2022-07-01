@@ -1,8 +1,14 @@
-import gameEngine from '../index.js';
+import runRound from '../index.js';
 import { getRandomNumber, getRandomIndex } from '../utils.js';
 
 const rule = 'What number is missing in the progression?';
 const dots = '..';
+const minStart = 0;
+const maxStart = 20;
+const minStep = 1;
+const maxStep = 10;
+const minLength = 5;
+const maxLength = 10;
 
 const getProgression = (start, step, length) => {
   const result = [];
@@ -14,10 +20,10 @@ const getProgression = (start, step, length) => {
   return result;
 };
 
-const getAnswerAndQuestion = () => {
-  const start = getRandomNumber(0, 20);
-  const step = getRandomNumber(1, 10);
-  const length = getRandomNumber(5, 10);
+const generateRound = () => {
+  const start = getRandomNumber(minStart, maxStart);
+  const step = getRandomNumber(minStep, maxStep);
+  const length = getRandomNumber(minLength, maxLength);
 
   const progression = getProgression(start, step, length);
   const hidenIndex = getRandomIndex(progression);
@@ -29,4 +35,4 @@ const getAnswerAndQuestion = () => {
   return [answer, question];
 };
 
-export default () => gameEngine(rule, getAnswerAndQuestion);
+export default () => runRound(rule, generateRound);

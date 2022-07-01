@@ -1,31 +1,33 @@
-import gameEngine from '../index.js';
+import runRound from '../index.js';
 import { getRandomNumber, getRandomIndex } from '../utils.js';
 
 const rule = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
+const minRange = 0;
+const maxRange = 10;
 
 const randomOperator = () => operators[getRandomIndex(operators)];
 
-const getCalculation = (number1, nummer2, operator) => {
+const getCalculation = (number1, number2, operator) => {
   switch (operator) {
     case '+':
-      return number1 + nummer2;
+      return number1 + number2;
     case '-':
-      return number1 - nummer2;
+      return number1 - number2;
     default:
-      return number1 * nummer2;
+      return number1 * number2;
   }
 };
 
-const getAnswerAndQuestion = () => {
-  const num1 = getRandomNumber(0, 10);
-  const num2 = getRandomNumber(0, 10);
+const generateRound = () => {
+  const number1 = getRandomNumber(minRange, maxRange);
+  const number2 = getRandomNumber(minRange, maxRange);
   const operator = randomOperator();
 
-  const answer = String(getCalculation(num1, num2, operator));
-  const question = `${num1} ${operator} ${num2}`;
+  const answer = String(getCalculation(number1, number2, operator));
+  const question = `${number1} ${operator} ${number2}`;
 
   return [answer, question];
 };
 
-export default () => gameEngine(rule, getAnswerAndQuestion);
+export default () => runRound(rule, generateRound);

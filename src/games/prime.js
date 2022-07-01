@@ -1,7 +1,9 @@
-import gameEngine from '../index.js';
+import runRound from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const minRange = 0;
+const maxRange = 100;
 
 const isPrime = (number) => {
   if (number <= 1) {
@@ -17,11 +19,11 @@ const isPrime = (number) => {
   return true;
 };
 
-function getAnswerAndQuestion() {
-  const question = getRandomNumber(0, 100);
+const generateRound = () => {
+  const question = getRandomNumber(minRange, maxRange);
   const answer = isPrime(question) ? 'yes' : 'no';
 
   return [answer, question];
-}
+};
 
-export default () => gameEngine(rule, getAnswerAndQuestion);
+export default () => runRound(rule, generateRound);
