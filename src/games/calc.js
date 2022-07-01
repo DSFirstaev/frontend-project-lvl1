@@ -14,8 +14,10 @@ const getCalculation = (number1, number2, operator) => {
       return number1 + number2;
     case '-':
       return number1 - number2;
-    default:
+    case '*':
       return number1 * number2;
+    default:
+      return null;
   }
 };
 
