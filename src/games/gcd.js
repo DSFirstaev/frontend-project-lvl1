@@ -1,11 +1,11 @@
-import runRound from '../index.js';
+import run from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
 const minRange = 0;
 const maxRange = 100;
 
-const findGCD = (num1, num2) => ((num1 !== 0) ? findGCD(num2 % num1, num1) : Math.abs(num2));
+const findGCD = (x, y) => ((x !== 0) ? findGCD(y % x, x) : Math.abs(y));
 
 const generateRound = () => {
   const number1 = getRandomNumber(minRange, maxRange);
@@ -17,4 +17,4 @@ const generateRound = () => {
   return [answer, question];
 };
 
-export default () => runRound(rule, generateRound);
+export default () => run(rule, generateRound);

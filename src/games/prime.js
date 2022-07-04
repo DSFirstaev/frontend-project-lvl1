@@ -1,4 +1,4 @@
-import runRound from '../index.js';
+import run from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -10,7 +10,9 @@ const isPrime = (number) => {
     return false;
   }
 
-  for (let i = 2; i <= number ** 0.5; i += 1) {
+  const ckeckLimit = Math.sqrt(number);
+
+  for (let i = 2; i <= ckeckLimit; i += 1) {
     if (number % i === 0) {
       return false;
     }
@@ -26,4 +28,4 @@ const generateRound = () => {
   return [answer, question];
 };
 
-export default () => runRound(rule, generateRound);
+export default () => run(rule, generateRound);

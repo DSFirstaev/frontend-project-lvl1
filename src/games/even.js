@@ -1,4 +1,4 @@
-import runRound from '../index.js';
+import run from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
 const rule = 'Answer "yes" if the number is even, otherwise answer "no"';
@@ -14,4 +14,4 @@ const generateRound = () => {
   return [answer, question];
 };
 
-export default () => runRound(rule, generateRound);
+export default () => run(rule, generateRound);
