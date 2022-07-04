@@ -7,20 +7,20 @@ This is a project of several thinking games.
 
 #How to install
 
-*Clone this repository
-*Run the command: 
+* Clone this repository
+* Run the command: 
 ```
-make install
+  make install
 ```
-*Run the command (you may need `sudo`): 
+* Run the command (you may need `sudo`): 
 ```
-npm link
+  npm link
 ```
 
 
-#Demo Brain Even
+# Demo Brain Even
 
-##Run the command
+## Run the command:
 
 ```
 brain-even
@@ -28,9 +28,9 @@ brain-even
 
 [![asciicast](https://asciinema.org/a/fkoHqK8mhF2ukYmwWP7G67QD9.svg)](https://asciinema.org/a/fkoHqK8mhF2ukYmwWP7G67QD9)
 
-#Demo Brain Calc
+# Demo Brain Calc
 
-##Run the command
+## Run the command:
 
 ```
 brain-calc
@@ -38,9 +38,9 @@ brain-calc
 
 [![asciicast](https://asciinema.org/a/uszAyBmmjLcr6kJMufia9FhEl.svg)](https://asciinema.org/a/uszAyBmmjLcr6kJMufia9FhEl)
 
-#Demo Brain GCD
+# Demo Brain GCD
 
-##Run the command
+## Run the command:
 
 ```
 brain-gcd
@@ -48,9 +48,9 @@ brain-gcd
 
 [![asciicast](https://asciinema.org/a/j4gGrhRMVRvj1SXth6vtF1JQS.svg)](https://asciinema.org/a/j4gGrhRMVRvj1SXth6vtF1JQS)
 
-#Demo Brain Progression
+# Demo Brain Progression
 
-##Run the command
+## Run the command:
 
 ```
 brain-progression
@@ -58,9 +58,9 @@ brain-progression
 
 [![asciicast](https://asciinema.org/a/RrYJRcpg3lvykiKVbuKr5dsB8.svg)](https://asciinema.org/a/RrYJRcpg3lvykiKVbuKr5dsB8)
 
-#Demo Brain Prime
+# Demo Brain Prime
 
-##Run the command
+## Run the command:
 
 ```
 brain-prime
