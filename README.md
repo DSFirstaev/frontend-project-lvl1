@@ -12,7 +12,7 @@ This is a project of several thinking games.
 ```
 make install
 ```
-*Run the command (may need sudo when installing on Windows): 
+*Run the command (you may need `sudo`): 
 ```
 npm link
 ```
