@@ -1,11 +1,14 @@
+# BRAIN - GAMES
+*This is a project of several thinking games.*
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/DSFirstaev/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/DSFirstaev/frontend-project-lvl1/actions)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/339b343129c8bfbe7d09/maintainability)](https://codeclimate.com/github/DSFirstaev/frontend-project-lvl1/maintainability)
 
-This is a project of several thinking games.
 
-#How to install
+
+## How to install
 
 * Clone this repository
 * Run the command: 
@@ -18,9 +21,10 @@ This is a project of several thinking games.
 ```
 
 
-# Demo Brain Even
 
-## Run the command:
+## Demo Brain Even
+
+### Run the command:
 
 ```
 brain-even
@@ -28,9 +32,10 @@ brain-even
 
 [![asciicast](https://asciinema.org/a/fkoHqK8mhF2ukYmwWP7G67QD9.svg)](https://asciinema.org/a/fkoHqK8mhF2ukYmwWP7G67QD9)
 
-# Demo Brain Calc
 
-## Run the command:
+## Demo Brain Calc
+
+### Run the command:
 
 ```
 brain-calc
@@ -38,9 +43,10 @@ brain-calc
 
 [![asciicast](https://asciinema.org/a/uszAyBmmjLcr6kJMufia9FhEl.svg)](https://asciinema.org/a/uszAyBmmjLcr6kJMufia9FhEl)
 
-# Demo Brain GCD
 
-## Run the command:
+## Demo Brain GCD
+
+### Run the command:
 
 ```
 brain-gcd
@@ -48,9 +54,10 @@ brain-gcd
 
 [![asciicast](https://asciinema.org/a/j4gGrhRMVRvj1SXth6vtF1JQS.svg)](https://asciinema.org/a/j4gGrhRMVRvj1SXth6vtF1JQS)
 
-# Demo Brain Progression
 
-## Run the command:
+## Demo Brain Progression
+
+### Run the command:
 
 ```
 brain-progression
@@ -58,9 +65,10 @@ brain-progression
 
 [![asciicast](https://asciinema.org/a/RrYJRcpg3lvykiKVbuKr5dsB8.svg)](https://asciinema.org/a/RrYJRcpg3lvykiKVbuKr5dsB8)
 
-# Demo Brain Prime
 
-## Run the command:
+## Demo Brain Prime
+
+### Run the command:
 
 ```
 brain-prime
