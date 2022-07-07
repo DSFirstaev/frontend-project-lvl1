@@ -2,7 +2,7 @@ import run from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
-const minRange = 0;
+const minRange = 1;
 const maxRange = 100;
 
 const findGCD = (x, y) => ((x !== 0) ? findGCD(y % x, x) : Math.abs(y));

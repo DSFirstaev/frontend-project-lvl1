@@ -30,7 +30,7 @@
 brain-even
 ```
 
-[![asciicast](https://asciinema.org/a/fkoHqK8mhF2ukYmwWP7G67QD9.svg)](https://asciinema.org/a/fkoHqK8mhF2ukYmwWP7G67QD9)
+[![asciicast](https://asciinema.org/a/okkeeqY05HgaTUqoKaYRCbCu8.svg)](https://asciinema.org/a/okkeeqY05HgaTUqoKaYRCbCu8)
 
 
 ## Demo Brain Calc
@@ -41,7 +41,7 @@ brain-even
 brain-calc
 ```
 
-[![asciicast](https://asciinema.org/a/uszAyBmmjLcr6kJMufia9FhEl.svg)](https://asciinema.org/a/uszAyBmmjLcr6kJMufia9FhEl)
+[![asciicast](https://asciinema.org/a/yVxevLcs3r8ENIeeHtHamSD5O.svg)](https://asciinema.org/a/yVxevLcs3r8ENIeeHtHamSD5O)
 
 
 ## Demo Brain GCD
@@ -52,7 +52,7 @@ brain-calc
 brain-gcd
 ```
 
-[![asciicast](https://asciinema.org/a/j4gGrhRMVRvj1SXth6vtF1JQS.svg)](https://asciinema.org/a/j4gGrhRMVRvj1SXth6vtF1JQS)
+[![asciicast](https://asciinema.org/a/qml76EatnTho8R2RxJQtWXlib.svg)](https://asciinema.org/a/qml76EatnTho8R2RxJQtWXlib)
 
 
 ## Demo Brain Progression
