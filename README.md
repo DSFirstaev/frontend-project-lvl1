@@ -63,7 +63,7 @@ brain-gcd
 brain-progression
 ```
 
-[![asciicast](https://asciinema.org/a/RrYJRcpg3lvykiKVbuKr5dsB8.svg)](https://asciinema.org/a/RrYJRcpg3lvykiKVbuKr5dsB8)
+[![asciicast](https://asciinema.org/a/uFQ92Toi4F71RFNna6bzYLcr7.svg)](https://asciinema.org/a/uFQ92Toi4F71RFNna6bzYLcr7)
 
 
 ## Demo Brain Prime
@@ -74,4 +74,4 @@ brain-progression
 brain-prime
 ```
 
-[![asciicast](https://asciinema.org/a/Dsd5nOzBA3jx51IgWb27w7Jvy.svg)](https://asciinema.org/a/Dsd5nOzBA3jx51IgWb27w7Jvy)
+[![asciicast](https://asciinema.org/a/zlNYcQi8wuraAfwYPj5szOTyO.svg)](https://asciinema.org/a/zlNYcQi8wuraAfwYPj5szOTyO)
